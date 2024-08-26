@@ -17,21 +17,12 @@ a{
   width: 80%;
   margin: auto;
 }
-.navbar .logo{
-  width: 150px;
-}
 
-.navbar-menu{
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  color: #49557e;
-  font-size: 18px;
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
-
-.navbar-right{
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-

@@ -5,6 +5,26 @@
     align-items: center;
 }
 
+.navbar .logo{
+    width: 150px;
+  }
+  
+  .navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+  }
+  
+  .navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  
+
 .navbar button{
     background: transparent;
     font-size: 16px;
